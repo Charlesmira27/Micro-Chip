@@ -1,0 +1,52 @@
+* {
+				text-decoration: none;
+				list-style: none;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 40px;
+	height: auto;
+	margin-top: 15px;
+	margin-right: 20px;
+	display: inline-block;
+}
+.image {
+				width: 100%;
+				margin-top: 2px;
+}
+.info {
+				border: 1px solid black;
+				padding: 5px;
+}
+.info2 {
+				border: 1px solid black;
+				padding: 5px;
+}
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(contactback.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: #fff !important;
+}
